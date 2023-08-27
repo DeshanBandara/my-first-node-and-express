@@ -1,7 +1,9 @@
 var express = require("express");
+var db = require("./database");
+
 var app = express();
 
-var HTTP_PORT = 8000;
+var HTTP_PORT = 9000;
 
 app.listen(HTTP_PORT, () =>{
     console.log("Server Running on Port %PORT%". replace("%PORT%", HTTP_PORT));
