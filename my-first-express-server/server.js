@@ -12,3 +12,9 @@ app.get("/", (req, res)=>{
     res.send("Getting Some Data");
 });
 
+app.post("/", (req, res) => {
+    //Some code to create data
+    res.send("Create Some Data");
+});
+
+
