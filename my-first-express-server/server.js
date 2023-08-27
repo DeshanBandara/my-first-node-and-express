@@ -17,4 +17,12 @@ app.post("/", (req, res) => {
     res.send("Create Some Data");
 });
 
+app.put("/", (req, res) => {
+    //Some code to Update data
+    res.send("Putting Some Data");
+});
 
+app.delete("/", (req, res) => {
+    //Some code to delete data
+    res.send("Deleting Some Data");
+});
