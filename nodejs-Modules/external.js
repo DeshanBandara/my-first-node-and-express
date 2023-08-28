@@ -1,5 +1,5 @@
 var details = {
-    level: function (level1) {
+    level1: function (level1) {
         console.log('level1: ' + level1);
     },
     level2: function (level2) {
@@ -10,4 +10,4 @@ var details = {
     },
 };
 
-module.export = details;
+module.exports = details;
