@@ -1,0 +1,1 @@
+this is the content wich will write to text file!
